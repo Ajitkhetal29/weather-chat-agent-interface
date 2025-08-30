@@ -164,8 +164,6 @@ const Chat = () => {
       .replace(/\\n/g, "\n")
       .replace(/\s+/g, " ")
       .replace(/\s([.,!?;:])/g, "$1")
-      .replace(/\\n/g, "<br/>") // 
-      .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
       .trim();
   }
 
