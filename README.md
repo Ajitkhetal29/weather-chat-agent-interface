@@ -1,12 +1,59 @@
-# React + Vite
+:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌦️ Weather Agent Chat Interface
 
-Currently, two official plugins are available:
+A simple React + Tailwind chat interface that allows users to interact with a weather agent.
+Built as part of the assignment to demonstrate UI, API integration, and advanced chat features.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deployed On Vercel - https://weather-chat-agent-interface-git-main-ajits-projects-d05baf59.vercel.app/ 
 
-## Expanding the ESLint configuration
+🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Chat UI with user/agent messages (auto-scroll).
+
+✅ API integration with the provided Weather Agent endpoint.
+
+✅ Message timestamps + delivery status (Sending → Sent → Delivered).
+
+✅ Dark/Light mode toggle 🌙☀️.
+
+✅ Message search (live highlight).
+
+✅ Sound notifications 🔔 on send/receive.
+
+✅ Export chat history 📄.
+
+✅ Simple formatting: **bold** → bold, \n → line breaks.
+
+🛠️ Tech Stack
+
+React (Vite) for frontend.
+
+TailwindCSS for styling.
+
+HTML5 Audio API for notifications.
+
+📦 Setup Instructions
+
+Clone the repo
+
+git clone https://github.com/your-repo/weather-chat.git
+cd weather-chat
+
+
+Install dependencies
+
+npm install
+
+
+Configure environment
+Create a .env file in the project root:
+
+VITE_API_URL=https://millions-screeching-vultur.mastra.cloud/api/agents/weatherAgent/stream
+
+
+Run locally
+
+npm run dev
+
+
