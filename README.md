@@ -34,7 +34,7 @@ HTML5 Audio API for notifications.
 
 Clone the repo
 
-git clone https://github.com/your-repo/weather-chat.git
+git clone https://github.com/Ajitkhetal29/weather-chat-agent-interface
 cd weather-chat
 
 
