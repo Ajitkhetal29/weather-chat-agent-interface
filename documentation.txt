@@ -1,0 +1,20 @@
+**Approach
+
+Started with a basic chat UI (user input, send button, auto-scroll).
+
+Integrated with Weather Agent API.
+
+Added dark mode, message search, timestamps, and sound alerts.
+
+Enhanced UX with delivery status (sending/sent/delivered) and chat export.
+
+
+Known Limitations / Improvements
+
+❌ Multiple conversation threads not implemented yet.
+
+❌ Basic text formatting only (**bold** + newlines).
+
+❌ No persistent storage (refresh clears chat).
+
+🔜 Could improve error handling for failed API responses.
