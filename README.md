@@ -3,7 +3,7 @@
 A simple React + Tailwind chat interface that allows users to interact with a weather agent.
 Built as part of the assignment to demonstrate UI, API integration, and advanced chat features.
 
-Deployed On Vercel - https://weather-chat-agent-interface-git-main-ajits-projects-d05baf59.vercel.app/ 
+Deployed On Vercel - https://weather-chat-agent-interface.vercel.app/
 
 🚀 Features
 
